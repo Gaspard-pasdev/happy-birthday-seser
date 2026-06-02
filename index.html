@@ -202,9 +202,15 @@
   </div>
 
   <!-- Vidéo -->
-<video controls autoplay muted style="width:300px">
-  <source src="videos/base.mp4" type="video/mp4">
-</video>
+  <div class="video-zone">
+    <div class="video-wrapper">
+      <video id="v-base"    src="videos/base.mp4"          loop playsinline preload="auto"></video>
+      <video id="v-miss"    src="videos/miss-misery.mp4"   loop playsinline preload="metadata"></video>
+      <video id="v-through" src="videos/through.mp4"       loop playsinline preload="metadata"></video>
+      <video id="v-points"  src="videos/ill-try.mp4"       loop playsinline preload="metadata"></video>
+      <video id="v-nuage"   src="videos/fake-plastic.mp4"  loop playsinline preload="metadata"></video>
+    </div>
+  </div>
 
   <!-- Pictos -->
   <div class="pictos-bar" id="pictosBar">
