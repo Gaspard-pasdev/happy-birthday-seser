@@ -153,7 +153,7 @@
     @media (max-width: 600px) {
       :root {
         --header-h: 48px;
-        --footer-h: 130px;
+        --footer-h: 220px;
       }
 
       .info-date, .info-counter {
@@ -170,9 +170,9 @@
       .pictos-bar {
         gap: 24px;
         padding: 0 20px;
-        /* Pousser les pictos au-dessus de la barre Safari iOS */
-        padding-bottom: calc(16px + env(safe-area-inset-bottom));
-        height: calc(130px + env(safe-area-inset-bottom));
+        /* Barre Safari iOS ~83px + marge confortable */
+        padding-bottom: calc(90px + env(safe-area-inset-bottom));
+        height: calc(220px + env(safe-area-inset-bottom));
       }
 
       .active-picto {
